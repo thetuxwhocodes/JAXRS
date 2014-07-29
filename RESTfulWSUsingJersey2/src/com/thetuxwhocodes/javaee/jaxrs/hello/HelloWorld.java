@@ -12,6 +12,6 @@ public class HelloWorld {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String getIt() {
-        return "Hello World! Have some REST served through Jersey 2.";
+        return "Hello World! Have some REST served through Jersey 2. :)";
     }
 }
